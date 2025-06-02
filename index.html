@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SmartPark System</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    input, button { margin: 5px; padding: 6px; }
+    #output { margin-top: 20px; white-space: pre-line; }
+  </style>
+</head>
+<body>
+  <h1>SmartPark - Car Parking System</h1>
+
+  <input type="text" id="plateInput" placeholder="Enter number plate">
+  <button onclick="parkCar()">Park Car</button>
+  <button onclick="removeCar()">Remove Car</button>
+  <button onclick="showParkedCars()">Show Parked Cars</button>
+  <button onclick="showAvailableSlots()">Show Free Slots</button>
+
+  <div id="output"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
